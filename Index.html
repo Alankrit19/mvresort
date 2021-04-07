@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>MV's Resort</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('bg.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: 'Baloo Bhaina 2', cursive;
+        }
+
+        .left {
+            position: absolute;
+            left: 4px;
+            top: 20px;
+            width: 225px;
+            display: inline-block;
+            /* border: 2px solid red; */
+        }
+
+        .left img {
+            width: 100px;
+            margin-left: 64px;
+            /* border: 2px solid black; */
+            border-radius: 22px;
+
+        }
+
+        .left div {
+            text-align: center;
+            font-style: italic;
+            font-size: 20px;
+            text-shadow: cornsilk;
+            margin-top: -15px;
+            color: rgb(255, 235, 205);
+        }
+
+        .left :hover {
+            cursor: default;
+        }
+
+        .mid {
+            display: block;
+            width: 60%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+        }
+
+
+        #navbar {
+            display: inline-block;
+        }
+
+        #navbar li {
+            display: inline-block;
+
+        }
+
+        #navbar li a {
+            color: blanchedalmond;
+            padding: 0px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        #navbar li a:hover {
+            color: rgb(240, 113, 28);
+        }
+
+        .right {
+            position: absolute;
+            top: 20px;
+            right: 4px;
+            width: 259px;
+            display: inline-block;
+
+            /* border: 2px solid white; */
+        }
+
+        .btn {
+            margin: 20px;
+            margin-top: 14px;
+            margin-left: 81px;
+            /* border: 2px solid white; */
+            border-radius: 10px;
+            background-color: rgb(100, 43, 4);
+        }
+
+        .btn a {
+            text-decoration: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: rgb(255, 235, 205);
+        }
+
+        .btn a:hover {
+            text-decoration: underline;
+            color: rgb(240, 113, 28);
+
+        }
+
+        .main {
+            /* border: 2px solid white; */
+            position: absolute;
+            bottom: 20px;
+            display: inline-block;
+            width: 100%;
+            margin: 20px auto;
+
+        }
+
+        .btn2 {
+            margin-left: 195px;
+            margin-bottom: 180px;
+            padding: 20px;
+            /* border: 0px; */
+            border-radius: 20px;
+            font-size: 22px;
+            background-color: rgb(100, 43, 4);
+        }
+
+        .btn2 a {
+            text-decoration: none;
+            font-family: 'Baloo Bhaina 2', cursive;
+            color: rgb(255, 235, 205);
+        }
+
+        .btn2 a:hover {
+            color: rgb(240, 113, 28);
+            text-emphasis-style: 60px;
+
+        }
+
+        .content {
+            /* border: 2px solid red; */
+            height: 300px;
+            margin-top: 130px;
+            margin-right: 600px;
+            margin-left: 5px;
+            font-size: 60px;
+            text-align: left;
+            font-family: 'Molle', cursive;
+            line-height: 64px;
+            color: rgb(250, 252, 172);
+        }
+
+        .content span {
+            margin-left: 235px;
+        }
+
+        .content :hover{
+            cursor: default;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="logo.jpg">
+            <div>~BEACH RESORT~</div>
+        </div>
+        <div class="mid">
+            <ul id="navbar">
+                <li><a href="#">WEDDINGS & EVENTS</a></li>
+                <li><a href="#">ROOMS</a></li>
+                <li><a href="#">DINING</a></li>
+                <li><a href="#">GALLERY</a></li>
+                <li><a href="#">ACTIVITIES</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button id="navbar" class="btn">
+                <a href="#">BOOK YOUR STAY</a>
+            </button>
+        </div>
+        <div class="main">
+            <button id="navbar" class="btn2">
+                <a href="#">BOOK NOW --></a>
+            </button>
+
+        </div>
+        <div class="content">
+            <span>MV</span><br>BEACH RESORT
+        </div>
+
+    </header>
+
+</body>
+
+</html>
